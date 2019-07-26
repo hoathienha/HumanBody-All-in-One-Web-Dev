@@ -1,0 +1,185 @@
+@charset "utf-8";
+/*
+		CSIS1280-002
+		Assignment 2
+		
+		The Human Body - All In One Home Page
+		Author: Hoa Thien Ha - 300280650
+		Date: 10-14-2018
+		
+		Filename: thb_style1.css
+
+*/
+
+/* HTML Styles */
+html{
+	background-color: rgb(66,188,244);
+	color: white;
+	font-family: "Courier New", Verdana, Geneva, Arial, sans-serif;
+	font-size: 15px;
+}
+
+
+/* Body Styles */
+body{
+	background-color: rgb(9,47,91);
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 950px;
+	min-width: 650px;
+	box-shadow: white 10px 10px 20px,
+				white -10px -10px 20px;
+}
+
+h1{
+
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	text-align: center;
+	padding: 10px 10px;
+}
+
+nav.supportlinks{
+	display: block;
+	clear: both;
+	float:left;
+	line-height: 1.5em;
+	width: 15%;
+}
+
+nav.supportlinks h1{
+	background-color: black;
+	font-size: 1em;
+}
+
+nav.supportlinks ul li{
+	list-style-type: none;
+}
+
+nav.supportlinks a:link, nav.supportlinks a:active{
+	color: pink;
+}
+
+nav.supportlinks a:hover, nav.supportlinks a:visited {
+	color: white;
+	font-weight: bold;
+}
+
+/* Body Header Styles */
+
+body > header > nav.toplinks ul li{
+	background-color: rgb(242, 194, 176);
+	display: block;
+	float: left;
+	text-align: center;
+	width: 15%;
+}
+
+body > header > nav.toplinks ul li a{
+	display: block;
+	color: black;
+	font-weight: bold;
+	height: 2em;
+	text-align: center;
+	line-height: 2em;
+}
+
+nav.toplinks a:hover, nav.toplinks a:active {
+	background-color: black;
+	color: white;
+}
+
+
+
+/* Article  Styles */
+
+article{
+	display: block;
+	float: left;
+	width: 70%
+}
+
+article > h1 > a:link, article > h1 > a:active{
+	color: pink;
+}
+
+article > h1 > a:hover, article > h1 > a:visited{
+	color: white;
+	font-weight: bold;
+}
+
+figure > img#body, article > img#limbs{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+article > img#head, article > img#head1, article > img#trunk, article > img#trunk1{
+	display: block;
+	float: left;
+}
+
+article >img#head{
+	width: 200px;
+	height: 200px;
+}
+article > img#head1{
+	width: 465px;
+	height: 200px; 	
+}
+
+article > img#trunk1{
+	width: 450px;
+	height: 310px;
+}
+
+article > section{
+	clear: left;
+	float: left;
+	font-size: 1em;
+}
+
+caption{
+	color: green;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+/* Aside Styles */
+aside{
+	width: 15%;
+	float: left;
+	display: block;
+	line-height: 1.2em;
+	color: pink;
+	font-weight: bold;
+}
+aside h1{
+	background-color: black;
+	color: white;
+	font-size: 1em;
+}
+
+table{
+	border-style: solid;
+	border-color: rgb(242, 194, 176);
+	border-collapse: collapse;
+	font-size: 0.75em;
+	width: 85%;
+}
+
+table th, table td{
+	border: 1px solid rgb(242, 194, 176);
+	padding: 5px;
+	vertical-align: top;
+}
+
+
+/* Footer Styles */
+footer{
+	color: white;
+	font: normal small-caps bold 0.9em/3em
+		  "Trebuchet MS", Times, sans-serif;
+	text-align: center;
+	width: 100%;
+	clear: left;
+}
